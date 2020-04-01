@@ -2,6 +2,7 @@ import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 import 'dotenv/config'
 import { Logger } from '@nestjs/common';
+import { ShowInformationPipe } from './shared/validator.pipe';
 
 const PORT = process.env.PORT || 3000
 
